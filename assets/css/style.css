@@ -17,7 +17,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
+    transition: background-color 0.4s ease-in-out;
 }
+
+header.scrolled {
+    background-color: white;
+}
+
 
 
 /* .trending-article {
@@ -53,17 +60,24 @@ header {
 }
 
 .button {
-    background-color: black;
-    color: white;
     font-size: 20px;
     border-radius: 40px;
     cursor: pointer;
+
 }
 
 .button-header {
+    background-color: black;
+    color: white;
     padding: 15px;
     width: 180px;
     font-size: 25px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.button-header.scrolled {
+    background-color: lightgreen;
+    color: black;
 }
 
 /* HERO */
@@ -332,11 +346,11 @@ header {
     cursor: pointer;
 }
 
-/* 
+
 .content {
     display: flex;
     max-width: 90%;
     margin: 0 auto;
     padding-top: 90px;
     gap: 20px;
-} */
+}
