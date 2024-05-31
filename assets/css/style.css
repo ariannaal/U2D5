@@ -20,6 +20,13 @@ header.scrolled {
     background-color: white;
 }
 
+
+
+/* .trending-article {
+    width: 90%;
+    margin: 0 100px;
+} */
+
 #container-header {
     padding: 20px;
     margin: 0 100px;
@@ -82,6 +89,11 @@ header.scrolled {
     min-height: 35rem;
     border-bottom: 1px solid black;
     background-color: #FFC017;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
