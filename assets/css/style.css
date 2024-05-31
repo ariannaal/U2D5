@@ -20,20 +20,11 @@ header.scrolled {
     background-color: white;
 }
 
-
-
-/* .trending-article {
-    width: 90%;
-    margin: 0 100px;
-} */
-
 #container-header {
     padding: 20px;
     margin: 0 100px;
     display: flex;
     justify-content: space-between;
-    /* flex-direction: row;
-    justify-content: space-around; */
 }
 
 .logo {
@@ -131,15 +122,12 @@ header.scrolled {
     align-items: center;
     margin-top: 3rem;
     margin-bottom: 2.5rem;
-    /* margin-left: 8rem; */
 }
 
 .article {
     margin-inline: 100px;
     margin-bottom: 30px;
     max-width: 90%;
-
-    /* display: flex; */
 }
 
 .trending h2 {
@@ -163,7 +151,6 @@ header.scrolled {
 .name-trending {
     font-size: 1.6rem;
     color: grey;
-    /* font-weight: 500; */
 }
 
 .name-trending span,
@@ -171,8 +158,6 @@ header.scrolled {
     color: black;
     font-weight: 600;
 }
-
-/* .avatar-trending {} */
 
 .author-trending {
     display: flex;
@@ -183,7 +168,6 @@ header.scrolled {
 .title-trending,
 .date-trending,
 .date-trending-star {
-    /* display: block; */
     margin-top: 15px;
 }
 
@@ -199,8 +183,6 @@ header.scrolled {
     color: gray;
 }
 
-/* .trending-article {} */
-
 .info-article-trending {
     margin-left: 5.2rem;
 }
@@ -213,9 +195,6 @@ header.scrolled {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    /* margin: 0 100px; */
-
 }
 
 .date-trending-star,
@@ -237,7 +216,6 @@ header.scrolled {
 #container-articles {
     max-height: 100%;
     flex: 3;
-    /* La colonna degli articoli occupa più spazio */
     display: flex;
     flex-direction: column;
 
@@ -254,8 +232,6 @@ header.scrolled {
     min-width: 1000px;
 }
 
-/* .avatar-article {
-} */
 
 .name-article {
     font-size: 1.8rem;
