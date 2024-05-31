@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-/* .root-container {
-    display: flex;
-    background-color: #FFC017;
-    flex-direction: column;
-} */
 
 /* HEADER */
 
@@ -114,6 +109,8 @@ header.scrolled {
     font-size: 1.4rem;
     width: 270px;
     margin-top: 2.3rem;
+    background-color: black;
+    color: white;
 }
 
 /* TRENDING */
@@ -328,11 +325,10 @@ header.scrolled {
     width: 60%;
 }
 
-
-
 .nav-laterale h2 {
     font-size: 2.3rem;
     font-weight: 800;
+    padding-bottom: 20px;
 }
 
 .nav-laterale button {
@@ -344,13 +340,37 @@ header.scrolled {
     border: 1px solid #EAE7E6;
     border-radius: 10px;
     cursor: pointer;
+    margin: 15px;
 }
-
 
 .content {
     display: flex;
     max-width: 90%;
     margin: 0 auto;
     padding-top: 90px;
-    gap: 20px;
+}
+
+aside {
+    margin-left: 150px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EAE7E6;
+    margin-bottom: 40px;
+}
+
+
+
+.links {
+    margin-left: 150px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.links a {
+    margin: 20px;
+    color: gray;
+    cursor: pointer;
 }
