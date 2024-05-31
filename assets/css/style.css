@@ -96,6 +96,7 @@ header.scrolled {
     align-items: center;
 }
 
+.Ms {}
 
 #container-hero h1 {
     font-size: 8rem;
@@ -313,13 +314,13 @@ header.scrolled {
     width: 60%;
 }
 
-.nav-laterale h2 {
+aside h2 {
     font-size: 2.3rem;
     font-weight: 800;
     padding-bottom: 20px;
 }
 
-.nav-laterale button {
+aside button {
     padding: 20px;
     width: 220px;
     font-size: 1.3rem;
@@ -345,6 +346,15 @@ aside {
     margin-bottom: 40px;
 }
 
+/* .nav-laterale {
+    padding-block: 70px;
+} */
+
+.nav-laterale {
+    position: sticky;
+    top: 200px;
+    z-index: 800;
+}
 
 
 .links {
